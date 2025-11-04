@@ -63,7 +63,7 @@ export default async function EditCallPage({
 }) {
     const { id: projectId, callId } = await params;
     try {
-        const call = await getCallById(projectId, callId);
+        const call = await getCallById(callId);
         return (
             <PageWrapper breadcrumbs={<Breadcrumbs data={call} />}>
                 <div className="flex justify-end gap-2">
@@ -83,7 +83,7 @@ export default async function EditCallPage({
                 </div>
                 <div className="mx-auto h-full w-full max-w-3xl rounded-xl">
                     <div className="flex flex-1 flex-col gap-4 px-4 py-10">
-                        <EditCallForm call={call} editCall={editCall} />
+                        <EditCallForm call={call} editCall={editCall as any} />
                     </div>
                 </div>
             </PageWrapper>

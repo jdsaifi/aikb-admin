@@ -60,7 +60,7 @@ export default async function AddCallPage({
     const project = await getProjectById(projectId);
 
     return (
-        <PageWrapper breadcrumbs={<Breadcrumbs project={project} />}>
+        <PageWrapper breadcrumbs={<Breadcrumbs project={project.data} />}>
             <div className="flex justify-end gap-2">
                 <Button asChild variant="outline">
                     <Link href={`/projects/${projectId}/calls`}>
@@ -71,7 +71,10 @@ export default async function AddCallPage({
             </div>
             <div className="mx-auto h-full w-full max-w-3xl rounded-xl">
                 <div className="flex flex-1 flex-col gap-4 px-4 py-10">
-                    <AddCallForm project={project} addCall={addCall} />
+                    <AddCallForm
+                        project={project.data}
+                        addCall={addCall as any}
+                    />
                 </div>
             </div>
         </PageWrapper>

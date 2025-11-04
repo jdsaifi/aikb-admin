@@ -260,36 +260,42 @@ export default function ConversationLibrary({ calls }: { calls: ICall[] }) {
                                     <Badge
                                         className={
                                             difficultyColors[
-                                                conversation?.difficulty ||
+                                                (conversation?.negativeQuestions as keyof typeof difficultyColors) ||
                                                     'All'
                                             ]
                                         }
                                     >
-                                        {conversation?.difficulty || 'All'}
+                                        {conversation?.negativeQuestions ||
+                                            'All'}
                                     </Badge>
                                     <Badge
                                         className={
                                             categoryColors[
-                                                conversation?.category || 'All'
+                                                (conversation?.positiveQuestions as keyof typeof categoryColors) ||
+                                                    'All'
                                             ]
                                         }
                                     >
-                                        {conversation?.category || 'All'}
+                                        {conversation?.positiveQuestions ||
+                                            'All'}
                                     </Badge>
                                 </div>
 
                                 <div className="flex items-center gap-4 text-sm text-gray-500 mb-4">
                                     <div className="flex items-center gap-1">
                                         <Clock className="w-4 h-4" />
-                                        {conversation.duration}
+                                        {conversation.questions?.length}{' '}
+                                        questions
                                     </div>
                                     <div className="flex items-center gap-1">
                                         <Users className="w-4 h-4" />
-                                        {conversation.people} people
+                                        {conversation.documents?.length}{' '}
+                                        documents
                                     </div>
                                     <div className="flex items-center gap-1">
                                         <MessageSquare className="w-4 h-4" />
-                                        {conversation.type}
+                                        {conversation.documents?.length}{' '}
+                                        documents
                                     </div>
                                 </div>
                             </div>

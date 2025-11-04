@@ -70,8 +70,8 @@ export default function AddUserForm({
                 const input: IUserInput = {
                     name: data.name,
                     email: data.email,
-                    userGroup: data.userGroup,
-                    password: data.password,
+                    // userGroup: data.userGroup as unknown as IUserGroup,
+                    password: data.password as string,
                 };
                 await addUser(input);
                 form.reset({

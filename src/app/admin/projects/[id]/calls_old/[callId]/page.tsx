@@ -71,7 +71,7 @@ export default async function CallInfoPage({
     // console.log('callId: ', callId);
 
     try {
-        const call = await getCallById(projectId, callId);
+        const call = await getCallById(callId);
         const feedback: IFeedback = await getOrInsertFeedback(
             projectId,
             callId,

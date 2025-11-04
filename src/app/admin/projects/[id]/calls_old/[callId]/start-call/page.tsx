@@ -65,7 +65,7 @@ export default async function StartCallPage({
     const { id: projectId, callId } = await params;
 
     try {
-        const call = await getCallById(projectId, callId);
+        const call = await getCallById(callId);
         const feedback = await getOrInsertFeedback(projectId, callId, {});
 
         return (

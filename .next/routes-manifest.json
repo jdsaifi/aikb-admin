@@ -1,0 +1,271 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [
+    {
+      "page": "/admin/calls/[callId]",
+      "regex": "^/admin/calls/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPcallId": "nxtPcallId"
+      },
+      "namedRegex": "^/admin/calls/(?<nxtPcallId>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/admin/calls/[callId]/edit",
+      "regex": "^/admin/calls/([^/]+?)/edit(?:/)?$",
+      "routeKeys": {
+        "nxtPcallId": "nxtPcallId"
+      },
+      "namedRegex": "^/admin/calls/(?<nxtPcallId>[^/]+?)/edit(?:/)?$"
+    },
+    {
+      "page": "/admin/calls/[callId]/start-call",
+      "regex": "^/admin/calls/([^/]+?)/start\\-call(?:/)?$",
+      "routeKeys": {
+        "nxtPcallId": "nxtPcallId"
+      },
+      "namedRegex": "^/admin/calls/(?<nxtPcallId>[^/]+?)/start\\-call(?:/)?$"
+    },
+    {
+      "page": "/admin/documents/[documentId]/edit",
+      "regex": "^/admin/documents/([^/]+?)/edit(?:/)?$",
+      "routeKeys": {
+        "nxtPdocumentId": "nxtPdocumentId"
+      },
+      "namedRegex": "^/admin/documents/(?<nxtPdocumentId>[^/]+?)/edit(?:/)?$"
+    },
+    {
+      "page": "/admin/projects/[id]/calls",
+      "regex": "^/admin/projects/([^/]+?)/calls(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/projects/(?<nxtPid>[^/]+?)/calls(?:/)?$"
+    },
+    {
+      "page": "/admin/projects/[id]/calls_old",
+      "regex": "^/admin/projects/([^/]+?)/calls_old(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/projects/(?<nxtPid>[^/]+?)/calls_old(?:/)?$"
+    },
+    {
+      "page": "/admin/projects/[id]/calls_old/add",
+      "regex": "^/admin/projects/([^/]+?)/calls_old/add(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/projects/(?<nxtPid>[^/]+?)/calls_old/add(?:/)?$"
+    },
+    {
+      "page": "/admin/projects/[id]/calls_old/[callId]",
+      "regex": "^/admin/projects/([^/]+?)/calls_old/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid",
+        "nxtPcallId": "nxtPcallId"
+      },
+      "namedRegex": "^/admin/projects/(?<nxtPid>[^/]+?)/calls_old/(?<nxtPcallId>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/admin/projects/[id]/calls_old/[callId]/edit",
+      "regex": "^/admin/projects/([^/]+?)/calls_old/([^/]+?)/edit(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid",
+        "nxtPcallId": "nxtPcallId"
+      },
+      "namedRegex": "^/admin/projects/(?<nxtPid>[^/]+?)/calls_old/(?<nxtPcallId>[^/]+?)/edit(?:/)?$"
+    },
+    {
+      "page": "/admin/projects/[id]/calls_old/[callId]/start-call",
+      "regex": "^/admin/projects/([^/]+?)/calls_old/([^/]+?)/start\\-call(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid",
+        "nxtPcallId": "nxtPcallId"
+      },
+      "namedRegex": "^/admin/projects/(?<nxtPid>[^/]+?)/calls_old/(?<nxtPcallId>[^/]+?)/start\\-call(?:/)?$"
+    },
+    {
+      "page": "/admin/projects/[id]/edit",
+      "regex": "^/admin/projects/([^/]+?)/edit(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/projects/(?<nxtPid>[^/]+?)/edit(?:/)?$"
+    },
+    {
+      "page": "/admin/projects/[id]/users",
+      "regex": "^/admin/projects/([^/]+?)/users(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/projects/(?<nxtPid>[^/]+?)/users(?:/)?$"
+    },
+    {
+      "page": "/admin/user-groups/[userGroupId]",
+      "regex": "^/admin/user\\-groups/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPuserGroupId": "nxtPuserGroupId"
+      },
+      "namedRegex": "^/admin/user\\-groups/(?<nxtPuserGroupId>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/admin/users/[userId]",
+      "regex": "^/admin/users/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPuserId": "nxtPuserId"
+      },
+      "namedRegex": "^/admin/users/(?<nxtPuserId>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/api/auth/[...nextauth]",
+      "regex": "^/api/auth/(.+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPnextauth": "nxtPnextauth"
+      },
+      "namedRegex": "^/api/auth/(?<nxtPnextauth>.+?)(?:/)?$"
+    },
+    {
+      "page": "/calls/[id]",
+      "regex": "^/calls/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/calls/(?<nxtPid>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/403",
+      "regex": "^/403(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/403(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/admin/calls",
+      "regex": "^/admin/calls(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/calls(?:/)?$"
+    },
+    {
+      "page": "/admin/calls/add",
+      "regex": "^/admin/calls/add(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/calls/add(?:/)?$"
+    },
+    {
+      "page": "/admin/dashboard",
+      "regex": "^/admin/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/dashboard(?:/)?$"
+    },
+    {
+      "page": "/admin/documents",
+      "regex": "^/admin/documents(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/documents(?:/)?$"
+    },
+    {
+      "page": "/admin/projects",
+      "regex": "^/admin/projects(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/projects(?:/)?$"
+    },
+    {
+      "page": "/admin/projects/add",
+      "regex": "^/admin/projects/add(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/projects/add(?:/)?$"
+    },
+    {
+      "page": "/admin/user-groups",
+      "regex": "^/admin/user\\-groups(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/user\\-groups(?:/)?$"
+    },
+    {
+      "page": "/admin/user-groups/add",
+      "regex": "^/admin/user\\-groups/add(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/user\\-groups/add(?:/)?$"
+    },
+    {
+      "page": "/admin/users",
+      "regex": "^/admin/users(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/users(?:/)?$"
+    },
+    {
+      "page": "/admin/users/add",
+      "regex": "^/admin/users/add(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/users/add(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    },
+    {
+      "page": "/oauth-callback",
+      "regex": "^/oauth\\-callback(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/oauth\\-callback(?:/)?$"
+    },
+    {
+      "page": "/test-auth",
+      "regex": "^/test\\-auth(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/test\\-auth(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}

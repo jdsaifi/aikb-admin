@@ -1,26 +1,26 @@
 import { FileText, PencilIcon, PhoneCallIcon } from 'lucide-react';
 import Link from 'next/link';
-import { PageWrapper } from '../../../../../components/page-wrapper';
-import { Button } from '../../../../../components/ui/button';
-import { getCallById } from '../../../../../lib/services/callService';
+import { PageWrapper } from '../../../../components/page-wrapper';
+import { Button } from '../../../../components/ui/button';
+import { getCallById } from '../../../../lib/services/callService';
 import {
     Breadcrumb,
     BreadcrumbSeparator,
     BreadcrumbItem,
     BreadcrumbList,
     BreadcrumbPage,
-} from '../../../../../components/ui/breadcrumb';
-import { ICall, IDocument, IFeedback } from '../../../../../types';
+} from '../../../../components/ui/breadcrumb';
+import { ICall, IDocument, IFeedback } from '../../../../types';
 import {
     Card,
     CardContent,
     CardHeader,
     CardTitle,
-} from '../../../../../components/ui/card';
-import { getOrInsertFeedback } from '../../../../../lib/services/feedbackService';
-import { TranscriptDownloadButton } from '../../../../../components/transcript-download-button';
-import { FeedbackDownloadButton } from '../../../../../components/feedback-download-button';
-import { DOCUMENT_TYPES } from '../../../../../types/schema';
+} from '../../../../components/ui/card';
+import { getOrInsertFeedback } from '../../../../lib/services/feedbackService';
+import { TranscriptDownloadButton } from '../../../../components/transcript-download-button';
+import { FeedbackDownloadButton } from '../../../../components/feedback-download-button';
+import { DOCUMENT_TYPES } from '../../../../types/schema';
 
 // Force dynamic rendering since this page uses auth() which requires headers
 export const dynamic = 'force-dynamic';
@@ -71,7 +71,7 @@ export default async function CallInfoPage({
     // console.log('callId: ', callId);
 
     try {
-        const call = await getCallById(projectId, callId);
+        const call = await getCallById(callId);
         const feedback: IFeedback = await getOrInsertFeedback(
             projectId,
             callId,

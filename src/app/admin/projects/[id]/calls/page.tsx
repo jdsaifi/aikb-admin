@@ -57,7 +57,7 @@ export default async function ProjectUsersPage({
                             <BreadcrumbItem>
                                 <BreadcrumbLink asChild>
                                     <Link href={`/admin/projects/${id}/edit`}>
-                                        {project.name}
+                                        {project.data.name}
                                     </Link>
                                 </BreadcrumbLink>
                             </BreadcrumbItem>
@@ -75,7 +75,8 @@ export default async function ProjectUsersPage({
                             Manage Project Calls
                         </h1>
                         <p className="text-muted-foreground">
-                            Manage calls for &quot;{project.name}&quot; project.
+                            Manage calls for &quot;{project.data.name}&quot;
+                            project.
                         </p>
                     </div>
 

@@ -1,16 +1,17 @@
 import Link from 'next/link';
-import { PageWrapper } from '../../../../../../components/page-wrapper';
+
+import { PageWrapper } from '../../../../../components/page-wrapper';
 import {
     Breadcrumb,
     BreadcrumbItem,
     BreadcrumbList,
     BreadcrumbPage,
     BreadcrumbSeparator,
-} from '../../../../../../components/ui/breadcrumb';
-import { ICall } from '../../../../../../types';
-import { getCallById } from '../../../../../../lib/services/callService';
-import { VapiInterview } from '../../../../../../components/vapi-interview';
-import { getOrInsertFeedback } from '../../../../../../lib/services/feedbackService';
+} from '../../../../../components/ui/breadcrumb';
+import { ICall } from '../../../../../types';
+import { getCallById } from '../../../../../lib/services/callService';
+import { VapiInterview } from '../../../../../components/vapi-interview';
+import { getOrInsertFeedback } from '../../../../../lib/services/feedbackService';
 
 // Force dynamic rendering since this page uses auth() which requires headers
 export const dynamic = 'force-dynamic';
@@ -65,7 +66,7 @@ export default async function StartCallPage({
     const { id: projectId, callId } = await params;
 
     try {
-        const call = await getCallById(projectId, callId);
+        const call = await getCallById(callId);
         const feedback = await getOrInsertFeedback(projectId, callId, {});
 
         return (

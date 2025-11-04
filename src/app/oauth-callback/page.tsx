@@ -33,7 +33,9 @@ export default function OAuthCallbackPage() {
                 const res = await authGoogleLogin({
                     email: email as string,
                     name: name as string,
-                    supabase_id: id as string,
+                    authProvider: 'google',
+                    googleId: id as string,
+                    emailVerified: true,
                 });
 
                 console.log('\n\n\nres from oauth callback: ', res);

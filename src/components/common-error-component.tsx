@@ -1,7 +1,7 @@
 import { FlagIcon } from 'lucide-react';
 import React from 'react';
-import { Button } from './ui/button';
-import { Typography } from './ui/typography';
+// import { Button } from './ui/button';
+// import { Typography } from './ui/typography';
 
 interface CommonErrorComponentProps {
     title?: string;

@@ -35,7 +35,7 @@ const Breadcrumbs = ({ project }: { project: Project }) => {
                 <BreadcrumbSeparator />
                 <BreadcrumbItem>
                     <BreadcrumbPage className="line-clamp-1">
-                        {project.name}
+                        {project.data.name}
                     </BreadcrumbPage>
                 </BreadcrumbItem>
                 <BreadcrumbSeparator />

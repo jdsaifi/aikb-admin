@@ -50,7 +50,7 @@ export default async function ProjectUsersPage({
                             <BreadcrumbItem>
                                 <BreadcrumbLink asChild>
                                     <Link href={`/admin/projects/${id}/edit`}>
-                                        {project.name}
+                                        {project.data.name}
                                     </Link>
                                 </BreadcrumbLink>
                             </BreadcrumbItem>
@@ -68,8 +68,8 @@ export default async function ProjectUsersPage({
                             Manage Project Users
                         </h1>
                         <p className="text-muted-foreground">
-                            Assign users to &quot;{project.name}&quot; project
-                            to give them access to project features.
+                            Assign users to &quot;{project.data.name}&quot;
+                            project to give them access to project features.
                         </p>
                     </div>
 
