@@ -1,0 +1,82 @@
+{
+  "node": {
+    "7fedf89c28efc84e6f90095cadff28ef9d1f921f66": {
+      "workers": {
+        "app/admin/users/[userId]/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/users/[userId]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/services/tagMasterService.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/services/userService.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/services/authService.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/users/[userId]/page": "rsc"
+      }
+    },
+    "7f4e763079414c5cc02cae9c97623d248a68da6802": {
+      "workers": {
+        "app/admin/users/[userId]/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/users/[userId]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/services/tagMasterService.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/services/userService.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/services/authService.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/users/[userId]/page": "rsc"
+      }
+    },
+    "7f7f16eff0d06f870fd9d249d0043dafc6066e5689": {
+      "workers": {
+        "app/admin/users/[userId]/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/users/[userId]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/services/tagMasterService.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/services/userService.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/services/authService.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/users/[userId]/page": "rsc"
+      }
+    },
+    "7fcec7f3c57169e3ab896f9b83f0f16d3e2e1e242e": {
+      "workers": {
+        "app/admin/users/[userId]/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/users/[userId]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/services/tagMasterService.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/services/userService.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/services/authService.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/users/[userId]/page": "rsc"
+      }
+    },
+    "7fd56501f6b72994615ca46401bff06427d6ac4e21": {
+      "workers": {
+        "app/admin/users/[userId]/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/users/[userId]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/services/tagMasterService.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/services/userService.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/services/authService.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/users/[userId]/page": "rsc"
+      }
+    },
+    "7fef79bea7bc8993498343ad7bda9c071a0c86e635": {
+      "workers": {
+        "app/admin/users/[userId]/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/users/[userId]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/services/tagMasterService.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/services/userService.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/services/authService.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/users/[userId]/page": "rsc"
+      }
+    },
+    "7f0b22febd5ec33efc4f6a0d7f54a0b22ede397942": {
+      "workers": {
+        "app/admin/users/[userId]/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/users/[userId]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/services/tagMasterService.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/services/userService.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/services/authService.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/users/[userId]/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}

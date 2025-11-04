@@ -1,0 +1,30 @@
+{
+  "pages": {
+    "/admin/dashboard/page": [
+      "static/chunks/9bf22_next_dist_8935a7c3._.js",
+      "static/chunks/src_app_favicon_ico_mjs_0045d432._.js",
+      "static/chunks/[root-of-the-server]__7c10b418._.css",
+      "static/chunks/node_modules__pnpm_5476d563._.js",
+      "static/chunks/src_components_ui_sonner_tsx_346cfefb._.js",
+      "static/chunks/src_app_layout_tsx_dabc42dc._.js",
+      "static/chunks/src_app_admin_globals_213a8238.css",
+      "static/chunks/src_app_admin_layout_tsx_ac3fa44e._.js",
+      "static/chunks/src_b5264dc3._.js",
+      "static/chunks/fdcd2_@auth_core_08917c65._.js",
+      "static/chunks/96a70_jose_dist_webapi_935be7ae._.js",
+      "static/chunks/9bf22_next_bb6b9cc9._.js",
+      "static/chunks/60489_axios_1fe73c73._.js",
+      "static/chunks/3fcb3_zod_v3_10cbb2c5._.js",
+      "static/chunks/8484d_tailwind-merge_dist_bundle-mjs_mjs_4d8e7d9e._.js",
+      "static/chunks/node_modules__pnpm_2e69b505._.js",
+      "static/chunks/src_app_admin_dashboard_page_tsx_995f7534._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_d5ccf037._.js",
+      "static/chunks/9bf22_next_dist_compiled_7c0b275a._.js",
+      "static/chunks/9bf22_next_dist_client_3d678745._.js",
+      "static/chunks/9bf22_next_dist_11d686e8._.js",
+      "static/chunks/61dca_@swc_helpers_cjs_e27e0aca._.js",
+      "static/chunks/_e69f0d32._.js",
+      "static/chunks/_04745349._.js"
+    ]
+  }
+}

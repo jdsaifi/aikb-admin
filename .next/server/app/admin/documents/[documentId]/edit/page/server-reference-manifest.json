@@ -1,0 +1,71 @@
+{
+  "node": {
+    "7f4cc8edf41259352662ba174a347105b12a83fc1b": {
+      "workers": {
+        "app/admin/documents/[documentId]/edit/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/documents/[documentId]/edit/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/services/documentService.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/services/tagMasterService.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/services/authService.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/documents/[documentId]/edit/page": "rsc"
+      }
+    },
+    "7fb46128f9e5efa82fd97b14e8b2dacad2b5929c1e": {
+      "workers": {
+        "app/admin/documents/[documentId]/edit/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/documents/[documentId]/edit/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/services/documentService.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/services/tagMasterService.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/services/authService.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/documents/[documentId]/edit/page": "rsc"
+      }
+    },
+    "7fde0d699fcca4fa560b8b632e92e7e659b6c0a155": {
+      "workers": {
+        "app/admin/documents/[documentId]/edit/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/documents/[documentId]/edit/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/services/documentService.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/services/tagMasterService.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/services/authService.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/documents/[documentId]/edit/page": "rsc"
+      }
+    },
+    "7fed418a3e7cb7cb4ef0a35ce320fa270af71a4fad": {
+      "workers": {
+        "app/admin/documents/[documentId]/edit/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/documents/[documentId]/edit/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/services/documentService.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/services/tagMasterService.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/services/authService.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/documents/[documentId]/edit/page": "rsc"
+      }
+    },
+    "7fedf89c28efc84e6f90095cadff28ef9d1f921f66": {
+      "workers": {
+        "app/admin/documents/[documentId]/edit/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/documents/[documentId]/edit/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/services/documentService.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/services/tagMasterService.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/services/authService.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/documents/[documentId]/edit/page": "rsc"
+      }
+    },
+    "7f0b22febd5ec33efc4f6a0d7f54a0b22ede397942": {
+      "workers": {
+        "app/admin/documents/[documentId]/edit/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/documents/[documentId]/edit/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/services/documentService.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/services/tagMasterService.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/services/authService.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/documents/[documentId]/edit/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}
