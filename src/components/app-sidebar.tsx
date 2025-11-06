@@ -49,13 +49,13 @@ const data = {
             title: 'Documents',
             url: '/admin/documents',
             icon: IconFile,
-            requiredPermissions: ['documents.view'],
+            // requiredPermissions: ['documents.view'],
         },
         {
             title: 'Users',
             url: '/admin/users',
             icon: IconUsers,
-            requiredPermissions: ['users.view'],
+            // requiredPermissions: ['users.view'],
         },
     ],
     navClouds: [

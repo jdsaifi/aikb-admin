@@ -3,11 +3,11 @@
 import { toast } from 'sonner';
 import { IconLogout } from '@tabler/icons-react';
 import { DropdownMenuItem } from './ui/dropdown-menu';
-import { useRouter } from 'next/navigation';
+// import { useRouter } from 'next/navigation';
 import { signOut } from 'next-auth/react';
 
 export function LogoutButton() {
-    const router = useRouter();
+    // const router = useRouter();
     const userLogout = async () => {
         try {
             await signOut({
