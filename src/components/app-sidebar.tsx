@@ -15,7 +15,7 @@ import {
     IconSettings,
     IconUsers,
 } from '@tabler/icons-react';
-import { Users, User } from 'lucide-react';
+// import { Users, User } from 'lucide-react';
 import { useSession } from 'next-auth/react';
 import { checkPermission } from '@/lib/hasPermission';
 
@@ -182,7 +182,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                             <a href="#">
                                 <IconInnerShadowTop className="!size-5" />
                                 <span className="text-base font-semibold">
-                                    AI Interview
+                                    AI Knowledge Base
                                 </span>
                             </a>
                         </SidebarMenuButton>
