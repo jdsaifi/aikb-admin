@@ -148,7 +148,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
     const userRole = session?.user?.role;
 
     // Filter navigation items based on user permissions
-    const filteredNavMain = data.navMain.filter((item) => {
+    const filteredNavMain = data.navMain.filter((item: any) => {
         // Admin users can see everything
         if (userRole === 'admin') {
             return true;
